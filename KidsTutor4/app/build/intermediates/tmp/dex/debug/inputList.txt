@@ -1,0 +1,5 @@
+C:\Users\EUNICE\AndroidStudioProjects\KidsTutor4\app\build\intermediates\classes\debug
+C:\Users\EUNICE\AndroidStudioProjects\KidsTutor4\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ec8b883ce67b3397a8b60bf9143782314f446dca.jar
+C:\Users\EUNICE\AndroidStudioProjects\KidsTutor4\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-0a8a76dac58e85c2be261c473b98c714bbef4b9e.jar
+C:\Users\EUNICE\AndroidStudioProjects\KidsTutor4\app\build\intermediates\pre-dexed\debug\classes-c09747742c34e819c180d8b87dce5d17c2335fae.jar
+C:\Users\EUNICE\AndroidStudioProjects\KidsTutor4\app\build\intermediates\pre-dexed\debug\classes-bd12f0ab9196f86e8c4932625f103b4e7ea43793.jar

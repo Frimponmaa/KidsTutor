@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.evolution.icgc.MainActivity" >
+    
+    
+    <ImageButton 
+        android:id="@+id/image1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/a1"
+        />
+    
+       
+    <ImageButton 
+        android:id="@+id/image2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+      	android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/alphabetLabel"
+        android:background="@drawable/un"
+        />
+    
+    <ImageButton
+        android:id="@+id/image3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/numbersLabel"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/lion"
+       />
+    
+     <TextView 
+        android:id="@+id/alphabetLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Alphabets"
+        android:textStyle="bold"
+        android:layout_below="@+id/image1"
+      
+        />
+     
+      <TextView 
+        android:id="@+id/numbersLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Numbers"
+        android:textStyle="bold"
+        android:layout_below="@+id/image2"
+       
+        />
+      
+       <TextView 
+        android:id="@+id/animalsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Animals"
+        android:textStyle="bold"
+        android:layout_below="@+id/image3"
+       
+        />
+
+
+
+
+
+</RelativeLayout>

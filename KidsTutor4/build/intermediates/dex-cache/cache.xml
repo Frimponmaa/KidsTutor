@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\EUNICE\AndroidStudioProjects\KidsTutor4\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\EUNICE\AndroidStudioProjects\KidsTutor4\app\build\intermediates\pre-dexed\debug\classes-bd12f0ab9196f86e8c4932625f103b4e7ea43793.jar" />
+    </item>
+    <item
+        jar="C:\Users\EUNICE\AndroidStudioProjects\KidsTutor4\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\EUNICE\AndroidStudioProjects\KidsTutor4\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-0a8a76dac58e85c2be261c473b98c714bbef4b9e.jar" />
+    </item>
+    <item
+        jar="C:\Users\EUNICE\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\EUNICE\AndroidStudioProjects\KidsTutor4\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ec8b883ce67b3397a8b60bf9143782314f446dca.jar" />
+    </item>
+    <item
+        jar="C:\Users\EUNICE\AndroidStudioProjects\KidsTutor4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\EUNICE\AndroidStudioProjects\KidsTutor4\app\build\intermediates\pre-dexed\debug\classes-c09747742c34e819c180d8b87dce5d17c2335fae.jar" />
+    </item>
+
+</items>

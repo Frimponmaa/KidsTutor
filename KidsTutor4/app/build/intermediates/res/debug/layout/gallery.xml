@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- I hope you understand how to read xml files already. If not perhaps let Andy explain how this part works or contact me-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+   <ImageSwitcher
+		android:id="@+id/switcher1"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+				/>
+    iSwitcher = (ImageSwitcher) findViewById(R.id.ImageSwitcher1);
+    iSwitcher.setFactory(this);
+    iSwitcher.setInAnimation(AnimationUtils.loadAnimation(this,
+    android.R.anim.fade_in));
+    iSwitcher.setOutAnimation(AnimationUtils.loadAnimation(this,
+    android.R.anim.fade_out));
+
+</LinearLayout><!-- From: file:/C:/Users/EUNICE/AndroidStudioProjects/KidsTutor4/app/src/main/res/layout/gallery.xml -->

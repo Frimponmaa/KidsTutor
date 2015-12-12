@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing First Names</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>String</th>
+      <th>Lastname</th>
+      <th>Dob</th>
+      <th>Date</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @first_names.each do |first_name| %>
+      <tr>
+        <td><%= first_name.string %></td>
+        <td><%= first_name.LastName %></td>
+        <td><%= first_name.DoB %></td>
+        <td><%= first_name.date %></td>
+        <td><%= link_to 'Show', first_name %></td>
+        <td><%= link_to 'Edit', edit_first_name_path(first_name) %></td>
+        <td><%= link_to 'Destroy', first_name, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New First name', new_first_name_path %>

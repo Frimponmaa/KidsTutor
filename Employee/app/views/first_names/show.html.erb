@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>String:</strong>
+  <%= @first_name.string %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @first_name.LastName %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @first_name.DoB %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @first_name.date %>
+</p>
+
+<%= link_to 'Edit', edit_first_name_path(@first_name) %> |
+<%= link_to 'Back', first_names_path %>
